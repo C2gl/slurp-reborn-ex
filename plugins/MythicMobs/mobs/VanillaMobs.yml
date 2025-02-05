@@ -1,10 +1,9 @@
-# For more information, check out the plugin manual or join us on Discord:
-# http://www.mythicmobs.net
-#  
-
+CAVE_SPIDER:
+  Health: 30
+  Damage: 7
 WITHER_SKELETON:
-  Health: 14
-  Damage: 5
+  Health: 50
+  Damage: 10
 GIANT:
   Health: 1000
   Damage: 20
