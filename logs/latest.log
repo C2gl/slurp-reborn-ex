@@ -1,23 +1,27 @@
-[11:41:02] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.2+7-58; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[11:41:02] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-136-main@e0711af (2025-01-31T12:30:12Z) for Minecraft 1.21.4
-[11:41:03] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[11:41:04] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[11:41:04] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - ModelEngine (R4.0.8), Multiverse-Core (4.3.14), MythicMobs (5.8.0-SNAPSHOT-571bd8e1)
-[11:41:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:41:12] [ServerMain/INFO]: Loaded 1370 recipes
-[11:41:12] [ServerMain/INFO]: Loaded 1481 advancements
-[11:41:12] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[11:41:13] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 269,7ms
-[11:41:14] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[11:41:14] [Server thread/INFO]: Loading properties
-[11:41:14] [Server thread/INFO]: This server is running Paper version 1.21.4-136-main@e0711af (2025-01-31T12:30:12Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[11:41:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[11:41:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:41:14] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:41:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[11:41:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[11:41:15] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+[12:40:30] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.2+7-58; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[12:40:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-136-main@e0711af (2025-01-31T12:30:12Z) for Minecraft 1.21.4
+[12:40:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:40:32] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[12:40:37] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 5070ms.
+[12:40:37] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\MythicMobs-5.8.0-SNAPSHOT.jar'...
+[12:40:40] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MythicMobs-5.8.0-SNAPSHOT.jar' in 3616ms.
+[12:40:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[12:40:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - ModelEngine (R4.0.8), MythicMobs (5.8.0-SNAPSHOT-571bd8e1)
+[12:40:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:40:47] [ServerMain/INFO]: Loaded 1370 recipes
+[12:40:47] [ServerMain/INFO]: Loaded 1481 advancements
+[12:40:47] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[12:40:47] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 216,4ms
+[12:40:48] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[12:40:48] [Server thread/INFO]: Loading properties
+[12:40:48] [Server thread/INFO]: This server is running Paper version 1.21.4-136-main@e0711af (2025-01-31T12:30:12Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[12:40:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:40:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:40:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:40:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[12:40:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:40:49] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:328) ~[?:?]
@@ -53,364 +57,285 @@ java.io.IOException: The handle is invalid
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:109) ~[paper-1.21.4.jar:1.21.4-136-e0711af]
-[11:41:15] [Server thread/INFO]: Default game type: SURVIVAL
-[11:41:15] [Server thread/INFO]: Generating keypair
-[11:41:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:41:16] [Server thread/INFO]: Using default channel type
-[11:41:16] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[11:41:16] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:41:16] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-api\4.16.0\adventure-api-4.16.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-key\4.16.0\adventure-key-4.16.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-platform-bukkit\4.3.2\adventure-platform-bukkit-4.3.2.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-platform-api\4.3.2\adventure-platform-api-4.3.2.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.2\adventure-text-serializer-bungeecord-4.3.2.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-legacy\4.13.1\adventure-text-serializer-legacy-4.13.1.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-platform-facet\4.3.2\adventure-platform-facet-4.3.2.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-platform-viaversion\4.3.2\adventure-platform-viaversion-4.3.2.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-minimessage\4.16.0\adventure-text-minimessage-4.16.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-gson\4.16.0\adventure-text-serializer-gson-4.16.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-json\4.16.0\adventure-text-serializer-json-4.16.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\option\1.0.0\option-1.0.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-api\4.14.0\adventure-api-4.14.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-key\4.14.0\adventure-key-4.14.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-gson\4.14.0\adventure-text-serializer-gson-4.14.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-json\4.14.0\adventure-text-serializer-json-4.14.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.0\adventure-text-serializer-bungeecord-4.3.0.jar
-[11:41:17] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-legacy\4.13.0\adventure-text-serializer-legacy-4.13.0.jar
-[11:41:17] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
-[11:41:17] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.8.0-SNAPSHOT-571bd8e1
-[11:41:17] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[11:41:17] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[11:41:17] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.8
-[11:41:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:41:17] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.8
-[11:41:17] [Server thread/INFO]: [ModelEngine] [S] Loading cache version: R4.0.8
-[11:41:18] [Server thread/INFO]: Preparing level "world"
-[11:41:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:41:19] [Server thread/INFO]: Preparing spawn area: 0%
-[11:41:19] [Server thread/INFO]: Preparing spawn area: 2%
-[11:41:19] [Server thread/INFO]: Preparing spawn area: 2%
-[11:41:20] [Server thread/INFO]: Time elapsed: 1271 ms
-[11:41:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:41:20] [Server thread/INFO]: Preparing spawn area: 0%
-[11:41:20] [Server thread/INFO]: Time elapsed: 131 ms
-[11:41:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:41:20] [Server thread/INFO]: Preparing spawn area: 0%
-[11:41:20] [Server thread/INFO]: Time elapsed: 131 ms
-[11:41:20] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
-[11:41:20] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[11:41:20] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[11:41:20] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[11:41:20] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[11:41:20] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[11:41:20] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.8.0-SNAPSHOT-571bd8e1
-[11:41:20] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.4)...
-[11:41:20] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[11:41:23] [Server thread/INFO]: [MythicMobs] Base directory C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\plugins\MythicMobs\data
-[11:41:23] [Server thread/INFO]: [MythicMobs] Module directory C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\plugins\MythicMobs\data\worlds
-[11:41:25] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[11:41:26] [Server thread/INFO]: [MythicMobs] Loading Items...
-[11:41:26] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[11:41:26] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[11:41:26] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[11:41:26] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[11:41:26] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[11:41:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
-[11:41:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[11:41:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[11:41:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 7 skills.
-[11:41:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[11:41:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[11:41:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[11:41:26] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[11:41:26] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[11:41:26] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[11:41:26] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs Premium v5.8.0 ( build 571bd8e1 ) has been successfully loaded!
-[11:41:27] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
-[11:41:27] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
-[11:41:28] [Server thread/INFO]: [spark] Starting background profiler...
-[11:41:28] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[11:41:28] [Server thread/INFO]: Done preparing level "world" (9.998s)
-[11:41:28] [Server thread/INFO]: Running delayed init tasks
-[11:41:28] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:41:28] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[11:41:28] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
-[11:41:28] [ForkJoinPool-2-worker-1/INFO]: [ModelEngine] [A] 
-[11:41:28] [ForkJoinPool-2-worker-1/INFO]: [ModelEngine] [A] Importing glob.bbmodel.
-[11:41:28] [ForkJoinPool-2-worker-1/WARN]: [ModelEngine] [A] --Warning: Eye height is below 0. Entity might suffocate.
-[11:41:28] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
-[11:41:28] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[11:41:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[11:41:28] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
-[11:41:28] [Server thread/WARN]: java.lang.IllegalArgumentException: Villager.Profession cannot be null
-[11:41:28] [Server thread/WARN]: 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.entity.CraftVillagerZombie.setVillagerProfession(CraftVillagerZombie.java:34)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitBabyZombieVillager.spawn(BukkitBabyZombieVillager.java:53)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[11:41:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[11:41:28] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:41:28] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[11:41:28] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
-[11:41:28] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 106,5ms
-[11:41:28] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 76,3ms
-[11:41:28] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 68,3ms
-[11:41:28] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
-[11:41:28] [Server thread/WARN]: java.lang.NoSuchFieldError: Class org.bukkit.entity.EntityType does not have member field 'org.bukkit.entity.EntityType CREAKING_TRANSIENT'
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCreakingTransient.spawn(BukkitCreakingTransient.java:24)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[11:41:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[11:41:28] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
-[11:41:28] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[11:41:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[11:41:28] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
-[11:41:28] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[11:41:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[11:41:28] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
-[11:41:28] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[11:41:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[11:41:28] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
-[11:41:28] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[11:41:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[11:41:28] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
-[11:41:28] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[11:41:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[11:41:28] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
-[11:41:28] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
-[11:41:28] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
-[11:41:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:41:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
-[11:41:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
-[11:41:28] [Server thread/INFO]: Done (27.983s)! For help, type "help"
-[11:42:47] [User Authenticator #0/INFO]: UUID of player C2gl is ac59ab29-63a9-4865-912e-ab25be6efa08
-[11:42:48] [Server thread/INFO]: C2gl joined the game
-[11:42:48] [Server thread/INFO]: C2gl[/127.0.0.1:65290] logged in with entity id 177 at ([world]18.1166538248276, 73.49506601944698, -61.84337630244576)
-[11:42:55] [Server thread/INFO]: C2gl issued server command: /time set dat
-[11:42:57] [Server thread/INFO]: C2gl issued server command: /time set day
-[11:42:57] [Server thread/INFO]: [C2gl: Set the time to 1000]
-[11:43:00] [Server thread/INFO]: C2gl issued server command: /gamemode creative
-[11:43:00] [Server thread/INFO]: [C2gl: Set own game mode to Creative Mode]
-[11:43:04] [Server thread/INFO]: C2gl issued server command: /meg reload
-[11:43:04] [Craft Scheduler Thread - 6 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:43:04] [Craft Scheduler Thread - 6 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[11:43:04] [Craft Scheduler Thread - 6 - ModelEngine/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
-[11:43:04] [ForkJoinPool-2-worker-2/INFO]: [ModelEngine] [A] 
-[11:43:04] [ForkJoinPool-2-worker-2/INFO]: [ModelEngine] [A] Importing glob.bbmodel.
-[11:43:04] [ForkJoinPool-2-worker-2/WARN]: [ModelEngine] [A] --Warning: Eye height is below 0. Entity might suffocate.
-[11:43:04] [Craft Scheduler Thread - 6 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:43:04] [Craft Scheduler Thread - 6 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[11:43:04] [Craft Scheduler Thread - 6 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
-[11:43:04] [Craft Scheduler Thread - 6 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 13,7ms
-[11:43:04] [Craft Scheduler Thread - 6 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 33,7ms
-[11:43:04] [Craft Scheduler Thread - 6 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 105,7ms
-[11:43:09] [Server thread/INFO]: C2gl issued server command: /meg summon glob
-[11:43:15] [Server thread/INFO]: C2gl issued server command: /meg summon glob
-[11:43:59] [Server thread/INFO]: C2gl issued server command: /meg reload
-[11:43:59] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:43:59] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[11:43:59] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
-[11:43:59] [ForkJoinPool-2-worker-2/INFO]: [ModelEngine] [A] 
-[11:43:59] [ForkJoinPool-2-worker-2/INFO]: [ModelEngine] [A] Importing glob.bbmodel.
-[11:43:59] [ForkJoinPool-2-worker-2/WARN]: [ModelEngine] [A] --Warning: Eye height is below 0. Entity might suffocate.
-[11:43:59] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:43:59] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[11:43:59] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
-[11:43:59] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 6,7ms
-[11:43:59] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 11,2ms
-[11:43:59] [Craft Scheduler Thread - 5 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 39,4ms
-[11:44:01] [Server thread/INFO]: C2gl issued server command: /meg summon glob
-[11:45:57] [Server thread/INFO]: C2gl issued server command: /meg reload
-[11:45:57] [Craft Scheduler Thread - 10 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:45:57] [Craft Scheduler Thread - 10 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[11:45:57] [Craft Scheduler Thread - 10 - ModelEngine/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
-[11:45:57] [ForkJoinPool-2-worker-3/INFO]: [ModelEngine] [A] 
-[11:45:57] [ForkJoinPool-2-worker-3/INFO]: [ModelEngine] [A] Importing glob.bbmodel.
-[11:45:57] [Craft Scheduler Thread - 10 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:45:57] [Craft Scheduler Thread - 10 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[11:45:57] [Craft Scheduler Thread - 10 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
-[11:45:57] [Craft Scheduler Thread - 10 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 35,1ms
-[11:45:57] [Craft Scheduler Thread - 10 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 9,5ms
-[11:45:57] [Craft Scheduler Thread - 10 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 39,0ms
-[11:45:59] [Server thread/INFO]: C2gl issued server command: /meg summon glob
-[11:46:19] [Server thread/INFO]: C2gl issued server command: /meg summon glob
-[11:46:34] [Server thread/INFO]: C2gl issued server command: /meg summon glob SKELETON
-[11:48:01] [Server thread/INFO]: C2gl issued server command: /meg summon glob 10
-[11:51:30] [Server thread/INFO]: C2gl issued server command: /meg reload
-[11:51:30] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:51:30] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[11:51:30] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
-[11:51:30] [ForkJoinPool-2-worker-5/INFO]: [ModelEngine] [A] 
-[11:51:30] [ForkJoinPool-2-worker-5/INFO]: [ModelEngine] [A] Importing glob.bbmodel.
-[11:51:30] [ForkJoinPool-2-worker-4/INFO]: [ModelEngine] [A] 
-[11:51:30] [ForkJoinPool-2-worker-4/INFO]: [ModelEngine] [A] Importing forester.bbmodel.
-[11:51:30] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] 
-[11:51:30] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[11:51:30] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
-[11:51:30] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 54,6ms
-[11:51:30] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 60,2ms
-[11:51:30] [Craft Scheduler Thread - 1 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 67,4ms
-[11:51:35] [Server thread/INFO]: C2gl issued server command: /meg summon forester
-[11:52:48] [Server thread/INFO]: C2gl issued server command: /time set day
-[11:52:48] [Server thread/INFO]: [C2gl: Set the time to 1000]
-[11:53:25] [Server thread/INFO]: C2gl issued server command: /stop
-[11:53:25] [Server thread/INFO]: [C2gl: Stopping the server]
-[11:53:25] [Server thread/INFO]: Stopping server
-[11:53:25] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR4.0.8
-[11:53:25] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.8.0-SNAPSHOT-571bd8e1
-[11:53:25] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[11:53:25] [Server thread/INFO]: [MythicMobs] - 
-[11:53:25] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
-[11:53:25] [Server thread/INFO]: [MythicMobs] - 
-[11:53:25] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[11:53:25] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
-[11:53:25] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
-[11:53:25] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[11:53:25] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[11:53:25] [Server thread/INFO]: [MythicMobs] - Variables saved...
-[11:53:25] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
-[11:53:25] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
-[11:53:25] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[11:53:25] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[11:53:25] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[11:53:25] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.14
-[11:53:25] [Server thread/INFO]: Saving players
-[11:53:25] [Server thread/INFO]: C2gl lost connection: Server closed
-[11:53:25] [Server thread/INFO]: C2gl left the game
-[11:53:25] [Server thread/INFO]: Saving worlds
-[11:53:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:53:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[11:53:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[11:53:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Saved 1513 block chunks, 206 entity chunks, 7 poi chunks in world 'world' in 0,53s
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[11:53:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0,01s
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[11:53:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[11:53:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[11:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:53:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:53:26] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[11:53:26] [Server thread/INFO]: All I/O tasks to complete
-[11:53:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[11:53:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[12:40:49] [Server thread/INFO]: Default game type: SURVIVAL
+[12:40:49] [Server thread/INFO]: Generating keypair
+[12:40:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:40:49] [Server thread/INFO]: Using default channel type
+[12:40:49] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[12:40:49] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-api\4.16.0\adventure-api-4.16.0.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-key\4.16.0\adventure-key-4.16.0.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\org\jetbrains\annotations\24.1.0\annotations-24.1.0.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-platform-bukkit\4.3.2\adventure-platform-bukkit-4.3.2.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-platform-api\4.3.2\adventure-platform-api-4.3.2.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.2\adventure-text-serializer-bungeecord-4.3.2.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-legacy\4.13.1\adventure-text-serializer-legacy-4.13.1.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-nbt\4.13.1\adventure-nbt-4.13.1.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-gson-legacy-impl\4.13.1\adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-platform-facet\4.3.2\adventure-platform-facet-4.3.2.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-platform-viaversion\4.3.2\adventure-platform-viaversion-4.3.2.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-minimessage\4.16.0\adventure-text-minimessage-4.16.0.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-gson\4.16.0\adventure-text-serializer-gson-4.16.0.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-json\4.16.0\adventure-text-serializer-json-4.16.0.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\option\1.0.0\option-1.0.0.jar
+[12:40:49] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-api\4.14.0\adventure-api-4.14.0.jar
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-key\4.14.0\adventure-key-4.14.0.jar
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-gson\4.14.0\adventure-text-serializer-gson-4.14.0.jar
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-json\4.14.0\adventure-text-serializer-json-4.14.0.jar
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-bungeecord\4.3.0\adventure-text-serializer-bungeecord-4.3.0.jar
+[12:40:50] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\libraries\net\kyori\adventure-text-serializer-legacy\4.13.0\adventure-text-serializer-legacy-4.13.0.jar
+[12:40:50] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.8.0-SNAPSHOT-571bd8e1
+[12:40:50] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[12:40:50] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
+[12:40:50] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.8
+[12:40:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:40:50] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.8
+[12:40:50] [Server thread/INFO]: [ModelEngine] [S] Loading cache version: R4.0.8
+[12:40:51] [Server thread/INFO]: Preparing level "world"
+[12:40:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:40:51] [Server thread/INFO]: Preparing spawn area: 0%
+[12:40:52] [Server thread/INFO]: Preparing spawn area: 2%
+[12:40:52] [Server thread/INFO]: Preparing spawn area: 2%
+[12:40:52] [Server thread/INFO]: Time elapsed: 1076 ms
+[12:40:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:40:52] [Server thread/INFO]: Preparing spawn area: 0%
+[12:40:52] [Server thread/INFO]: Time elapsed: 120 ms
+[12:40:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:40:52] [Server thread/INFO]: Preparing spawn area: 0%
+[12:40:52] [Server thread/INFO]: Time elapsed: 79 ms
+[12:40:52] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.8.0-SNAPSHOT-571bd8e1
+[12:40:53] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.4)...
+[12:40:53] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[12:40:55] [Server thread/INFO]: [MythicMobs] Base directory C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\plugins\MythicMobs\data
+[12:40:55] [Server thread/INFO]: [MythicMobs] Module directory C:\Users\User\Documents\Github\#slurp\slurp-reborn-ex\plugins\MythicMobs\data\worlds
+[12:40:57] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[12:40:57] [Server thread/INFO]: [MythicMobs] Loading Items...
+[12:40:57] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[12:40:57] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[12:40:57] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[12:40:57] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[12:40:57] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[12:40:57] [Server thread/INFO]: [MythicMobs] Spawners folder not found! Creating...
+[12:40:57] [Server thread/INFO]: [MythicMobs] ✓ Loaded 9 mobs.
+[12:40:57] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[12:40:57] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[12:40:57] [Server thread/INFO]: [MythicMobs] ✓ Loaded 7 skills.
+[12:40:57] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[12:40:57] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
+[12:40:57] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[12:40:57] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[12:40:57] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[12:40:58] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[12:40:58] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs Premium v5.8.0 ( build 571bd8e1 ) has been successfully loaded!
+[12:40:58] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
+[12:40:58] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
+[12:40:59] [Server thread/INFO]: [spark] Starting background profiler...
+[12:40:59] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[12:40:59] [Server thread/INFO]: Done preparing level "world" (8.067s)
+[12:40:59] [Server thread/INFO]: Running delayed init tasks
+[12:40:59] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[12:40:59] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[12:40:59] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
+[12:40:59] [ForkJoinPool-2-worker-2/INFO]: [ModelEngine] [A] 
+[12:40:59] [ForkJoinPool-2-worker-2/INFO]: [ModelEngine] [A] Importing glob.bbmodel.
+[12:40:59] [ForkJoinPool-2-worker-1/INFO]: [ModelEngine] [A] 
+[12:40:59] [ForkJoinPool-2-worker-1/INFO]: [ModelEngine] [A] Importing forester.bbmodel.
+[12:40:59] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
+[12:40:59] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[12:40:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[12:40:59] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
+[12:40:59] [Server thread/WARN]: java.lang.IllegalArgumentException: Villager.Profession cannot be null
+[12:40:59] [Server thread/WARN]: 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.entity.CraftVillagerZombie.setVillagerProfession(CraftVillagerZombie.java:34)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitBabyZombieVillager.spawn(BukkitBabyZombieVillager.java:53)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[12:40:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[12:40:59] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
+[12:40:59] [Server thread/WARN]: java.lang.NoSuchFieldError: Class org.bukkit.entity.EntityType does not have member field 'org.bukkit.entity.EntityType CREAKING_TRANSIENT'
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCreakingTransient.spawn(BukkitCreakingTransient.java:24)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[12:40:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[12:40:59] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[12:40:59] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[12:40:59] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Generator Profiled:
+[12:40:59] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A]  - Import Phase: 240,2ms
+[12:40:59] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A]  - Assets Phase: 62,8ms
+[12:40:59] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A]  - Zipping Phase: 85,2ms
+[12:40:59] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
+[12:40:59] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[12:40:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[12:40:59] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
+[12:40:59] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[12:40:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[12:40:59] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
+[12:40:59] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[12:40:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[12:40:59] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
+[12:40:59] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[12:40:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[12:40:59] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
+[12:40:59] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[12:40:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[12:40:59] [Server thread/WARN]: [MythicMobs] Error initializing default entity magic values. Please report this.
+[12:40:59] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.EntityType.getEntityClass()" because "type" is null
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.RegionAccessor.spawnEntity(RegionAccessor.java:407)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.adapters.BukkitEntityType.spawnEntity(BukkitEntityType.java:69)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.entities.BukkitCustom.spawn(BukkitCustom.java:37)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.api.mobs.entities.MythicEntityType.initializeDefaultValues(MythicEntityType.java:161)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.BukkitBootstrap.initializeMagicEntityValues(BukkitBootstrap.java:472)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.Delegates$RunnableToSupplier.get(Delegates.java:121)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.promise.LuminePromise$SupplyRunnable.run(LuminePromise.java:654)
+[12:40:59] [Server thread/WARN]: 	at MythicMobs-5.8.0-SNAPSHOT.jar//io.lumine.mythic.bukkit.utils.tasks.LumineExecutors$SchedulerWrappedRunnable.run(LumineExecutors.java:70)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[12:40:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
+[12:40:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[12:40:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+[12:40:59] [Server thread/INFO]: Done (30.417s)! For help, type "help"
+[12:41:04] [Server thread/INFO]: Stopping the server
+[12:41:04] [Server thread/INFO]: Stopping server
+[12:41:04] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR4.0.8
+[12:41:04] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.8.0-SNAPSHOT-571bd8e1
+[12:41:04] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[12:41:04] [Server thread/INFO]: [MythicMobs] - 
+[12:41:04] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[12:41:04] [Server thread/INFO]: [MythicMobs] - 
+[12:41:04] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[12:41:04] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[12:41:04] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[12:41:04] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[12:41:04] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[12:41:04] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[12:41:04] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[12:41:04] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[12:41:04] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[12:41:04] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[12:41:04] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[12:41:04] [Server thread/INFO]: Saving players
+[12:41:04] [Server thread/INFO]: Saving worlds
+[12:41:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:41:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:41:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:41:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:41:04] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0,18s
+[12:41:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[12:41:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[12:41:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:41:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:41:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:41:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:41:05] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0,06s
+[12:41:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[12:41:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[12:41:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:41:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:41:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:41:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:41:05] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0,04s
+[12:41:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[12:41:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[12:41:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:41:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:41:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:41:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:41:05] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[12:41:05] [Server thread/INFO]: All I/O tasks to complete
+[12:41:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[12:41:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
