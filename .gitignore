@@ -1,4 +1,8 @@
+# files to be ignores 
 cache/
 world/
 world_nether/
 world_the_end/
+
+#exeption files in gitignore 
+!world/datapacks/
