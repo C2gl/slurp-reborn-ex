@@ -1,6 +1,7 @@
 # files to be ignores 
 cache/
 world/
+!enchantment-plus-4-4_mc-1-21-4.zip
 world_nether/
 world_the_end/
 
