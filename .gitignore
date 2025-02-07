@@ -5,4 +5,4 @@ world_nether/
 world_the_end/
 
 #exeption files in gitignore 
-!world/datapacks/
+!world/datapacks/enchantment-plus-4-4_mc-1-21-4.zip
