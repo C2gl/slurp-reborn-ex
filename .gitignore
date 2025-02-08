@@ -1,4 +1,17 @@
-cache/
-world/
+# world/ files to be ignores 
+
+world/data/
+world/entities/
+world/playerdata/
+world/poi/
+world/region/
+world/level.dat
+world/paper-world.yml
+world/session.lock
+world/uid.dat
+
+
+#others
 world_nether/
 world_the_end/
+cache/

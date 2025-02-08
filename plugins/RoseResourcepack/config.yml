@@ -1,0 +1,40 @@
+lang: en
+loadDefaultFiles: false
+
+# Open port on the server on which the resourcepack will be located.
+# The port must be open and not occupied by other programs.
+# it cannot be the same as the server port (25565 for example).
+port: 8085
+# Your server IP. Example: 141.148.166.48 NOT localhost/127.0.0.1
+# The plugin can automatically fetch it. If the plugin failed to
+# get the IP address of the server, enter it manually.
+# ip: "127.0.0.1"
+
+# The list of resource packs that players will join with.
+joinPacks:
+- wyvernity-datapack
+
+# Whether to reset the resourcepack to the player when leaving the server
+resetPackOnLeave: true
+
+# List of resourcepacks
+packs:
+  wyvernity-datapack:
+    # Enables hash checking for the pack.
+    enableHash: true
+    # Protects the pack to prevent unauthorized modifications.
+    protect: true
+    # Message displayed to the player when they are prompted to download the resource pack.
+    prompt: Please download the resource pack!
+    # Indicates whether this pack is required for players.
+    required: true
+    # Whether to replace the conflicting files
+    replaceDuplicate: false
+    # List of connected packs that will be included with the main pack.
+
+# List of file types to ignore when processing packs.
+ignoreFiles:
+- zip
+- txt
+- yml
+- json1
